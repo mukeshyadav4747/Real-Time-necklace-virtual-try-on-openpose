@@ -1,0 +1,92 @@
+# Core - OpenCV DNN (no CUDA needed)
+opencv-python
+opencv-contrib-python
+numpy
+scipy
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Frontend
+streamlit
+streamlit-webrtc
+
+# Utils
+pillow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Core dependencies
+#fastapi
+#uvicorn[standard]
+#streamlit
+#streamlit-webrtc
+#opencv-python
+#numpy
+#scipy
+#pillow
+
+# CUDA/GPU support
+#torch
+#torchvision
+
+# OpenPose (requires manual installation - see README.md)
+# Download from: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+
+# Optional depth
+#timm
+
+
+
+#necklace-tryon-openpose/
+#├── backend/
+#│   ├── __init__.py
+#│   ├── openpose_tracker.py
+#│   ├── necklace_renderer.py
+#│   ├── depth_estimator.py
+#│   ├── occlusion_handler.py
+#│   └── assets/
+#│       └── necklace.png
+#├── frontend/
+#│   └── app.py
+#├── openpose
+#├── venv
+#├── main.py
+#├── requirements.txt
+#├── setup_openpose.sh
+#└── README.md
+
+
+
+#necklace-virtual-tryon/
+#├── backend/
+#│   ├── __init__.py
+#│   ├── pose_tracker.py          # OpenCV DNN with Caffe
+#│   ├── necklace_renderer.py
+#│   ├── depth_estimator.py
+#│   ├── occlusion_handler.py
+#│   ├── models/
+#│   │   ├── pose_deploy.prototxt
+#│   │   └── pose_iter_584000.caffemodel
+#│   └── assets/
+#│       └── necklace.png
+#├── frontend/
+#│   └── app.py
+#├── main.py
+#├── requirements.txt
+#└── README.md
+
